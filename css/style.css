@@ -1,0 +1,194 @@
+html{
+    display: flex;
+    justify-content: center;
+    font-family: 'IM Fell English SC', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#head{
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+    margin: 0vh 10vh 0vh 10vh;
+}
+
+#head h1{
+    text-align: center;
+    margin: 2vh;
+    text-shadow:1px 1px rgb(216, 105, 45);
+    color: rgba(4, 4, 4, 0.708);
+}
+#nameInput {
+
+    font-size: large;
+    text-align: center;
+    color: darkblue;
+    font-family: 'IM Fell English SC', serif;
+    background: rgba(101, 148, 235, 0.755);
+}
+
+#userName{
+    font-family: 'IM Fell English SC', serif;
+    font-size: large;
+    border-radius: 5px;
+}
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./first-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 100vh;
+    width: 200vh;
+    
+
+}
+
+#game{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#oval{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 8vh;
+    padding: 6vh;
+    max-width: 150vh;
+    height: 90vh;
+    background: url('/css/Fantasy\ Forest\ Tree\ Houses\ Wallpaper.jpeg.crdownload');
+    background-position: center;
+    background-size: cover;
+    border: 5px solid rgb(255, 204, 0);
+    -webkit-border-radius: 200vh / 100vh;
+    -moz-border-radius: 100vh / 50vh;
+    border-radius: 120vh / 50vh;
+}
+
+#message{
+    font-size: 2vh;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.803);
+    border: 2px solid rgb(255, 204, 0);
+    height: 17vh;
+    width: 50vh;
+   
+}
+
+#counters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: rgba(228, 209, 3, 0.783);
+    border: 3px solid rgb(255, 132, 0);
+    border-radius: 15px;
+   width: 35vh ;
+   height: 15vh;
+   padding: 2vh;
+}
+
+.count{
+    min-width: 2vh;
+    min-height: 2vh;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+
+#foodBar{
+    width: 0%;
+    background-color: rgba(4, 162, 41, 0.81);
+}
+
+#sleepBar{
+    width: 0%;
+    background-color:rgba(26, 109, 235, 0.68); 
+}
+
+#playBar{
+    width: 0%;
+    background-color:rgba(255, 98, 0, 0.749); 
+}
+
+.bars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8vh;
+    margin-left: 2vh;
+    font-size: 2vh;
+    text-align: center;
+    border-radius: 4px;
+    height: 2vh;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    margin: 1vh;
+    padding-top: 1vh;
+    width: 1vh;
+    color: black;
+}
+#ohNo{
+    font-size: 2vh;
+}
+
+#buttons{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2vh;
+}
+
+#buttons button{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 1vh;
+    margin-bottom: 0.6vh;
+
+}
+
+
+#animaCont{
+    padding: 2vh;
+    border: 2px solid rgb(255, 132, 0) ;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 50vh;
+    height: 20vh;
+    position: relative;
+    background: rgba(203, 203, 142, 0.673);
+  }
+  
+  #animation {
+      border-radius: 2px;
+    width: 9vh;
+    height: 9vh;
+    position: absolute;
+    background:url('/css/Chuck-Norris.jpeg');
+    background-position: center;
+    background-size: cover;
+  }

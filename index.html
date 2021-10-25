@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="javascript/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <title>Tamagotchi</title>
+</head>
+<body>
+    <header id="head">
+        <h1>Enter Your Name To Start The Game</h1>
+        <div id="startButton">
+        <input type="text" placeholder="Enter name" id="nameInput"></input>
+        <button id="userName">Start</button>
+        </div>
+    </header>
+    <div id="oval">
+        <div id="message">
+         <h1>I'm <span id="spanName"></span >I'm <span id="age"></span>years old</h1>
+        <button id="start">start</button>
+        </div>
+        <div id="animaCont">
+            <div id="animation"></div>
+        </div>
+        <div id='game'>
+          <div id="counters">
+                 <div  class="count" >
+                 <h1 class="numbers" id="foodBarStat"></h1>
+                 <div class="bars" id="foodBar">Hunger</div>
+                
+                </div>
+                <div class="count">
+                  <h1 class="numbers" id="playBarStat"></h1>
+                 <div class="bars" id="playBar" >Boredom</div>
+                </div>
+                <div class="count">
+                <h1 class="numbers" id="sleepBarStat"></h1>
+                <div class="bars" id="sleepBar">Sleepiness</div>
+                </div>
+                <h1 id="ohNo">I need <span id="please"></span></h1>
+           </div>    
+            <div id="buttons">
+            <button id="foodButton">food</button>
+            <button id="playButton">play</button>
+            <button id="sleepButton">sleep</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
